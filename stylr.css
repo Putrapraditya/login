@@ -1,0 +1,164 @@
+body{
+    background: #6C4AB6;
+}
+
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 340px;
+    margin: 6rem auto 8.1rem auto;
+    width: 830px;
+    display: flex;
+}
+.right{
+    background: -webkit-linear-gradient(bottom, #7DE5ED, #81C6E8);
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 340px;
+    border-radius: 8px 0px 0px 8px;
+    color: white;
+
+}
+.right p{
+    text-align: center;
+    padding-top: 9vh;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-right{
+    font-size: 18px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left{
+    width: 530px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left a {
+    text-decoration: none;
+}
+.left a:hover{
+    color: aqua;
+}
+.title{
+    padding: 10px 0 0 30px;
+}
+.blur {
+    font-size:20px;
+    color: transparent;
+    text-shadow: 0 0 1.2px rgba(0,0,0,0.5);
+}
+.selec{
+    font-size: 20px;
+    color: #7DE5ED;
+}
+.login{
+    align-items: center;
+}
+.left input{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 70%;
+}
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 2px;
+    width: 80%;
+    margin: auto;
+
+}
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 40px;
+}
+.left label{
+        margin-left: 45px;
+        font-family: sans-serif;
+        font-size: 20px;
+        color: transparent;
+        text-shadow: 0 0 1.5px rgba(0,0,0,0.5);
+        padding: 10px;
+}
+
+#signup {
+    color: gray;
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+    margin-left: 30px;
+    margin-top: 16px;
+    margin-right: 20px;
+    text-align: center;
+}
+#submit-btn {
+    border-color: aqua;
+    border-radius: 21px;
+    border-width: 4px;
+    cursor: pointer;
+    color: black;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 3em;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 110px;
+}
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px #24c64f;
+}
+
+.down{
+    display: flex;
+}
+
+
+.social-login a {
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin: 43px 0 10px 10px ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block; }
+    .social-login a span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .social-login a:hover {
+      color: #fff; }
+    .social-login a.facebook {
+      background: #3b5998; }
+      .social-login a.facebook:hover {
+        background: #344e86; }
+    .social-login a.twitter {
+      background: #1da1f2; }
+      .social-login a.twitter:hover {
+        background: #0d95e8; }
+    .social-login a.google {
+      background: #ea4335; }
+      .social-login a.google:hover {
+        background: #e82e1e; }
+
+.forgot{
+    margin-top: 3em;
+}
+.forgot p{
+    color: #ECE2E1;
+}
+.forgot a{
+    color: white;
+}
